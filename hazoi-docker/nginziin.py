@@ -7,7 +7,7 @@ from os import makedirs
 from os.path import join
 
 mai_lukdui = re.compile('（.+?）')
-
+# test
 
 def main():
     miang = '/ngienbun-ngiliau'

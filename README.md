@@ -1,6 +1,8 @@
 # MeuLidFa-FanId
 苗栗話翻譯
 
+## 苗栗話翻譯試做1021
+
 ## 遽遽做
 ### 安裝
 - 安裝[Ubuntu Linux 20.04 LTS作業系統](https://ubuntu.com/download/desktop?version=20.04&architecture=amd64)
@@ -11,9 +13,9 @@
 - 安裝[dobi](https://github.com/dnephin/dobi)
 
 #### 相關連結
-- https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit
-- https://github.com/OpenNMT/OpenNMT-py
-- https://opennmt.net/OpenNMT-py/
+- [Installation Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit)
+- [OpenNMT/OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py)
+- [OpenNMT-py](https://opennmt.net/OpenNMT-py/)
 
 ### 下載專案
 ```
@@ -21,10 +23,10 @@ git clone git@github.com:i3thuan5/MeuLidFa-FanId.git
 ```
 
 #### 若係無權，愛用ssh key代替密碼
-https://github.com/settings/keys
+
 
 1. 產生ssh key
-2. rsa_id.pub傳去github
+2. rsa_id.pub[傳去github](https://github.com/settings/keys)
 
 ### 訓練
 `time dobi qionpu`
@@ -95,8 +97,8 @@ alias=qionpu: # 全部
 #### 結果
 ```bash
 3-opennmt-data/
-├── meufa.vocab.src
-└── meufa.vocab.tgt
+├── meufa.vocab.src.fa
+└── meufa.vocab.tgt.meu
 ```
 
 ### 4. `job=hiunlien: # 訓練`
